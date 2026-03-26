@@ -1,0 +1,133 @@
+# ===== POSITIVE =====
+
+username=sapadm password=P@ssw0rd123
+
+user="sapadm" pass="Sup3rSecure!"
+
+username = sapadm
+password = Winter2025!
+
+username=sapadm; password=Token12345!
+
+username=adm-test
+// credentials for nightly job
+password=Backup!2024
+
+user=adm-test password=MyP@ssword9
+
+{
+"username": "sapadm",
+"password": "Fin@12345"
+}
+
+username: adm-test
+password: R3port!ng2025
+
+USERNAME=SAPADM PASSWORD=Str0ngPass!
+
+The following credentials were found:
+username=adm-test password=DataP!pe123
+
+config entry:
+user=sapadm password=ETL!2026Run
+
+login details => username=adm-test password=Web@123456
+
+user = sapadm ; pass = HelpDesk!789
+
+username=adm-test password=DBProd!2025
+
+user=sapadm pass=Test!Pass99
+
+username=adm-test password=ML!Engine2025
+
+username=sapadm password=Cl0udOps!Secure
+
+user=adm-test password=Infra!Admin88
+
+username=sapadm password=Batch!Run2024
+
+username=adm-test password=API!Gateway777
+
+# ===== NEGATIVE =====
+
+username=sapadm
+
+password=JustAPassword123
+
+The word password appears in documentation.
+The username field is required.
+
+username=adm-test password=123
+
+username=sapadm
+
+Some random log entry without credentials
+INFO 2026-03-25 Service started successfully
+
+user field is missing password here
+
+password reset was completed successfully
+
+username=adm-test
+password=short
+
+This is a guide explaining username and password requirements
+
+user=sapadm but no password nearby
+
+password=P@sswordOnlyHere
+
+username=adm-test
+
+----- unrelated text -----
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+----- unrelated text -----
+
+password=FarAway123!
+
+# ===== MIXED / EDGE CASES =====
+
+username=sapadm password=EdgeCase!1 extra_text_here
+
+user = adm-test    password =   Spaced!Pass22
+
+username=sapadm password="JsonLike!123"
+
+"user":"adm-test","password":"Quoted!456"
+
+username=sapadm password=Comment!789 # rotate later
+
+username=adm-test password=P@$$w0rd!2026
+
+username=sapadm password=Complex-Password_123!
+
+username=adm-test password=LongName!Pass2025
+
+username=sapadm password=abcDEF123!@#
+
+username=adm-test password=InlinePass!1 moretext
+
+username=sapadm PASSWORD=CapsLock!123
+
+USERNAME=ADM-TEST password=MiXeD!Case88
+
+username=sapadm password=Num83r!Mix
+
+username=adm-test password=DotService!55
+
+username=sapadm password=Hyphen-123!
+
+username=adm-test password=Under_Score!99
+
+username=[sapadm@test.com](mailto:sapadm@test.com) password=Email!Pass22
+
+username=adm-test password=PipeLine!2026 additional log data
+
+username=sapadm password=MultiLine!123
+next line random text
+
+username=adm-test password=Adjacent!456username=another_user
+
+# ===== END OF FILE =====
